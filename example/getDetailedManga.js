@@ -1,1 +1,1 @@
-async function a(e){console.log(`Retrieving detailed information for manga with ID: ${e}`)}var n=a;export{n as default};
+async function j(b){console.log(`Retrieving detailed information for manga with ID: ${b}`)}var q=j;export{q as default};

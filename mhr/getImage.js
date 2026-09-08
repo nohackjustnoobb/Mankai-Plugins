@@ -1,1 +1,1 @@
-async function o(t){let a=await(await fetch(t,{headers:{referer:"http://www.dm5.com/dm5api/"}})).blob(),e=new FileReader;return e.readAsDataURL(a),new Promise(r=>{e.onloadend=()=>{let n=e.result;r(n.split(",")[1])}})}var d=o;export{d as default};
+async function a(r){let t=await(await fetch(r,{headers:{referer:"http://www.dm5.com/dm5api/"}})).blob(),e=new FileReader;return e.readAsDataURL(t),new Promise((s)=>{e.onloadend=()=>{let n=e.result;s(n.split(",")[1])}})}var d=a;export{d as default};

@@ -1,1 +1,1 @@
-async function a(e,t){console.log(`Retrieving chapter ${t.id} for manga ${e.title}`)}var n=a;export{n as default};
+async function j(b,f){console.log(`Retrieving chapter ${f.id} for manga ${b.title}`)}var q=j;export{q as default};
