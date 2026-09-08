@@ -1,1 +1,1 @@
-async function j(f){console.log(`Retrieving suggestions for query: ${f}`)}var w=j;export{w as default};
+async function g(e){console.log(`Retrieving suggestions for query: ${e}`)}var n=g;export{n as default};
