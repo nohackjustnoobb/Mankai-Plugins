@@ -2,11 +2,11 @@
 
 > This branch is auto-generated. Do not edit.
 
-### Example Plugin v1.0.0
-An example plugin.
+### Template Plugin v1.0.0
+A template plugin.
 
 ```
-https://raw.githubusercontent.com/nohackjustnoobb/mankai-plugins/static/example/example.json
+https://raw.githubusercontent.com/nohackjustnoobb/mankai-plugins/static/template/template.json
 ```
 
 ### 漫畫人 v1.0.7

@@ -1,15 +1,15 @@
 {
-  "id": "example",
-  "name": "Example Plugin",
+  "id": "template",
+  "name": "Template Plugin",
   "version": "1.0.0",
   "authors": [
     "ME"
   ],
-  "description": "An example plugin.",
+  "description": "A template plugin.",
   "repository": "https://example.com",
   "updatesUrl": "https://example.com/updates",
   "getImageHeaders": {
-    "User-Agent": "ExamplePlugin/1.0"
+    "User-Agent": "TemplatePlugin/1.0"
   },
   "availableGenres": [
     "action",
@@ -91,15 +91,17 @@
     "searchByAuthor",
     "mangaDetails",
     "batchMangas",
+    "mangaUpdates",
     "chapter",
     "image"
   ],
   "scripts": {
     "isOnline": "async function n(){console.log(\"Checking if the plugin source is online\")}var e=n;export{e as default};\n",
     "getSuggestion": "async function g(e){console.log(`Retrieving suggestions for query: ${e}`)}var n=g;export{n as default};\n",
-    "search": "async function i(t,a,o=\"all\",r=0,e=!1){console.log(`Searching for manga by ${e?\"author\":\"title\"} with query: ${t} on page: ${a}, genre: ${o}, status: ${r}`)}var g=i;export{g as default};\n",
-    "getList": "async function r(t,a=\"all\",o=0){console.log(`Retrieving manga list for page ${t}, genre: ${a}, status: ${o}`)}var p=r;export{p as default};\n",
+    "search": "async function i(t,a,e=\"all\",o=0,r=!1){console.log(`Searching for manga by ${r?\"author\":\"title\"} with query: ${t} on page: ${a}, genre: ${e}, status: ${o}`)}var l=i;export{l as default};\n",
+    "getList": "async function o(t,a=\"all\",e=0){console.log(`Retrieving manga list for page ${t}, genre: ${a}, status: ${e}`)}var g=o;export{g as default};\n",
     "getMangas": "async function a(n){console.log(`Retrieving mangas for IDs: ${n.join(\", \")}`)}var o=a;export{o as default};\n",
+    "getMangaUpdates": "async function e(a){console.log(`Checking updates for ${a.length} mangas`)}var t=e;export{t as default};\n",
     "getDetailedManga": "async function e(a){console.log(`Retrieving detailed information for manga with ID: ${a}`)}var i=e;export{i as default};\n",
     "getChapter": "async function a(e,t){console.log(`Retrieving chapter ${t.id} for manga ${e.title}`)}var r=a;export{r as default};\n",
     "getImage": "async function r(e){console.log(`Retrieving image from URL: ${e}`)}var g=r;export{g as default};\n"
