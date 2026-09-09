@@ -20,7 +20,7 @@ bun install
 
 ### Creating a New Plugin
 
-To develop a new plugin, copy the `src/example` directory to a new directory under `src/` (e.g., `src/my-plugin`), and replace the implementation with your own.
+To develop a new plugin, copy the `src/template` directory to a new directory under `src/` (e.g., `src/my-plugin`), and replace the implementation with your own.
 
 ### Build
 

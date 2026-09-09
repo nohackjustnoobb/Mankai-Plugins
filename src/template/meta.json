@@ -1,13 +1,13 @@
 {
-  "id": "example",
-  "name": "Example Plugin",
+  "id": "template",
+  "name": "Template Plugin",
   "version": "1.0.0",
   "authors": ["ME"],
-  "description": "An example plugin.",
+  "description": "A template plugin.",
   "repository": "https://example.com",
   "updatesUrl": "https://example.com/updates",
   "getImageHeaders": {
-    "User-Agent": "ExamplePlugin/1.0"
+    "User-Agent": "TemplatePlugin/1.0"
   },
   "availableGenres": [
     "action",
@@ -85,6 +85,7 @@
     "searchByAuthor",
     "mangaDetails",
     "batchMangas",
+    "mangaUpdates",
     "chapter",
     "image"
   ]

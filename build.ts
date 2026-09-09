@@ -30,6 +30,7 @@ for (const dirEntry of readdirSync(srcDir, { withFileTypes: true })) {
     "search.ts",
     "getList.ts",
     "getMangas.ts",
+    "getMangaUpdates.ts",
     "getDetailedManga.ts",
     "getChapter.ts",
     "getImage.ts",

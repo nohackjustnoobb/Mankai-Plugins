@@ -54,6 +54,15 @@ interface Manga {
   meta?: string;
 }
 
+interface MangaUpdateRequest {
+  id: string;
+  latestChapter: Chapter;
+}
+
+interface MangaUpdate extends Manga {
+  updates: boolean;
+}
+
 interface DetailedManga extends Manga {
   readingDirection?: ReadingDirection;
   description?: string;
@@ -65,4 +74,11 @@ interface DetailedManga extends Manga {
 }
 
 export { Genre, ReadingDirection, Status };
-export type { Chapter, ChapterGroup, DetailedManga, Manga };
+export type {
+  Chapter,
+  ChapterGroup,
+  DetailedManga,
+  Manga,
+  MangaUpdate,
+  MangaUpdateRequest,
+};
