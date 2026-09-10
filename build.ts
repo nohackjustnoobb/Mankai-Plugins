@@ -3,6 +3,7 @@ import {
   mkdirSync,
   readdirSync,
   readFileSync,
+  rmSync,
   writeFileSync,
 } from "node:fs";
 import { basename, join } from "node:path";
@@ -10,6 +11,9 @@ import { build } from "esbuild";
 
 const srcDir = "./src";
 const distDir = "./dist";
+
+rmSync(distDir, { recursive: true, force: true });
+mkdirSync(distDir, { recursive: true });
 
 const repo = Bun.env.GITHUB_REPOSITORY;
 const branch = "static";
